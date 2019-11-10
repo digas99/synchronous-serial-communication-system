@@ -15,7 +15,7 @@ Report in portuguese [here](/relatorio).
 4. [User Guide](#4-user-guide)
    
 ## 1. System Specifications
-A synchroous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transfered; the *clock*, that determines at what pace the information is sent.
+A synchronous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transfered; the *clock*, that determines at what pace the information is sent.
 
 In this case, as specified by the guidelines of the project in hand, this is an unidirectional system (*symplex*), which means that the information is sent from *Master* to *Slave*, only, and not the other way around. 
 
