@@ -50,7 +50,7 @@ Then, the architecture has to be implemented, either through a block diagram bui
 
 **In this initial state**, it is expected a low level of complexity of the system, since the focus is to elaborate the FSM.
 
-An FPGA (field-programmable gate array) is will be used to output the system's updates.
+An FPGA (field-programmable gate array) will be used to output the system's updates.
 
 The *Data Size* is defined outside of the FPGA's environment.
 
@@ -62,7 +62,7 @@ The FPGA should behave as the following:
 
 **On a second state of the project**, it is exptected that HEX [3..0] exits output the *checksum error* value and the initial *Data Size* should be set through a button.
 
-**On a final state**, as required by the project's guidelines, it should be implemented a *MuliSlave* communication, where the user can choose to which *Slave* will the *Master* send the data.
+**On a final state**, as required by the project's guidelines, it should be implemented a *MultiSlave* communication, where the user can choose to which *Slave* will the *Master* send the data.
 
 ## 4. User Guide
 ![fpga](https://i.imgur.com/tdeiHR1.png)
