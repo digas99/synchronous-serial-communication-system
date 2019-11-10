@@ -5,12 +5,12 @@ Project of **Digital Systems Lab** classes, made by [Carlos Costa](https://githu
 Computers and Telematics Engineering at Universidade de Aveiro
 
 ## Table of contents:
-1. [System Specifications](/synchronous-serial-communication-system#1-system-specifications)
-2. [System's Architecture](/synchronous-serial-communication-system#2-systems-architecture)
-   * 2.1. [State Machine](/synchronous-serial-communication-system#21-state-machine)
-   * 2.2. [Truth Table](/synchronous-serial-communication-system#22-truth-table)
-3. [Development and Validation](/synchronous-serial-communication-system#3-development-and-validation)
-4. [User Guide](/synchronous-serial-communication-system#4-user-guide)
+1. [System Specifications](#1-system-specifications)
+2. [System's Architecture](#2-systems-architecture)
+   * 2.1. [State Machine](#21-state-machine)
+   * 2.2. [Truth Table](#22-truth-table)
+3. [Development and Validation](#3-development-and-validation)
+4. [User Guide](#4-user-guide)
    
 ## 1. System Specifications
 A synchroous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transfered; the *clock*, that determines at what pace the information is sent.
