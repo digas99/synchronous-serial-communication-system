@@ -4,6 +4,14 @@ Project of **Digital Systems Lab** classes, made by [Carlos Costa](https://githu
 
 Computers and Telematics Engineering at Universidade de Aveiro
 
+## Table of contents:
+1. System Specifications
+2. System's Architecture
+   * 2.1. State Machine
+   * 2.2. Truth Table
+3. Development and Validation
+4. User Guide
+   
 ## 1. System Specifications
 A synchroous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transfered; the *clock*, that determines at what pace the information is sent.
 
