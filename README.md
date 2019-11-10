@@ -4,6 +4,8 @@ Project of **Digital Systems Lab** classes, made by [Carlos Costa](https://githu
 
 Computers and Telematics Engineering at Universidade de Aveiro
 
+Report in portuguese [here](/relatorio).
+
 ## Table of contents:
 1. [System Specifications](#1-system-specifications)
 2. [System's Architecture](#2-systems-architecture)
