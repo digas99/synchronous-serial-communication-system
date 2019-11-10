@@ -1,10 +1,10 @@
 # synchronous-serial-communication-system
-Project of Digital Systems Lab classes, made by Carlos Costa and Diogo Correia
+Project of Digital Systems Lab classes, made by [Carlos Costa](https://github.com/carlosrjpcosta) and [Diogo Correia](https://github.com/digas99)
 
 ## 1. System Specifications
-A synchroous serial communication system sends data from a Master node to a Slave node, using two signals: the *data*, that contains the information that is meant to be transmitted; the *clock*, that determines at what pace the information is sent.
+A synchroous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transmitted; the *clock*, that determines at what pace the information is sent.
 
-In this case, as specified by the guidelines of the project in hand, this is an unidirectional system (*symplex*), which means that the information is sent from Master to Slave, only, and not the other way around. 
+In this case, as specified by the guidelines of the project in hand, this is an unidirectional system (*symplex*), which means that the information is sent from *Master* to *Slave*, only, and not the other way around. 
 
 This system can be divided into four parts:
 - **Start of Frame:** a bit assigned with the value 0, which represents the beginning of the data transmission;
@@ -20,7 +20,7 @@ Logic blocks being used:
 - State Machine;
 - RAM;
 
-## 2. System Architecture
+## 2. System's Architecture
 
 ![sys_arch](https://i.imgur.com/pWnNX6h.png)
 
@@ -29,3 +29,24 @@ Logic blocks being used:
 
 ### 2.2. Truth Table
 ![truth_table](https://i.imgur.com/N26F6Mg.png)
+
+## 3. Development and Validation
+This system works based on a state machine structure so, writing VHDL code of an FSM (Finite State Machine) is the starting point.
+
+Then, the architecture has to be implemented, either through a block diagram builder, or simply by coding it in VHDL.
+
+**In this initial state**, it is expected a low level of complexity of the system, since the focus is to elaborate the FSM.
+
+An FPGA (field-programmable gate array) is will be used to output the system's updates.
+
+The *Data Size* is defined outside of the FPGA's environment.
+
+The FPGA should behave as the following:
+- Display of initial and final *Data Size* values on HEX [7..4] exits;
+- Usage of a button to activate data input;
+- Green LED goes on everytime there is data input;
+- Red LED goes on everytime *checksum* outputs an error;
+
+**On a second state of the project**, it is exptected that HEX [3..0] exits output the *checksum error* value and the initial *Data Size* should be set through a button.
+
+**On a final state**, as required by the project's guidelines, it should be implemented a *MuliSlave* communication, where the user can choose to which *Slave* will the *Master* send the data.
