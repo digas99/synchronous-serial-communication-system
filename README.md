@@ -19,3 +19,7 @@ Logic blocks being used:
 - Comparator;
 - State Machine;
 - RAM;
+
+## 2. System Architecture
+
+![sys_arch](https://i.imgur.com/pWnNX6h.png)
