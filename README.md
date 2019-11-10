@@ -23,3 +23,9 @@ Logic blocks being used:
 ## 2. System Architecture
 
 ![sys_arch](https://i.imgur.com/pWnNX6h.png)
+
+### 2.1. State Machine
+![state_machine](https://i.imgur.com/rdB7Ta6.png)
+
+### 2.2. Truth Table
+![truth_table](https://i.imgur.com/N26F6Mg.png)
