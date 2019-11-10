@@ -1,8 +1,11 @@
 # synchronous-serial-communication-system
-Project of Digital Systems Lab classes, made by [Carlos Costa](https://github.com/carlosrjpcosta) and [Diogo Correia](https://github.com/digas99)
+Project of **Digital Systems Lab** classes, made by [Carlos Costa](https://github.com/carlosrjpcosta) and [Diogo Correia](https://github.com/digas99)
+
+
+Computers and Telematics Engineering at Universidade de Aveiro
 
 ## 1. System Specifications
-A synchroous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transmitted; the *clock*, that determines at what pace the information is sent.
+A synchroous serial communication system sends data from a *Master* node to a *Slave* node, using two signals: the *data*, that contains the information that is meant to be transfered; the *clock*, that determines at what pace the information is sent.
 
 In this case, as specified by the guidelines of the project in hand, this is an unidirectional system (*symplex*), which means that the information is sent from *Master* to *Slave*, only, and not the other way around. 
 
@@ -50,3 +53,22 @@ The FPGA should behave as the following:
 **On a second state of the project**, it is exptected that HEX [3..0] exits output the *checksum error* value and the initial *Data Size* should be set through a button.
 
 **On a final state**, as required by the project's guidelines, it should be implemented a *MuliSlave* communication, where the user can choose to which *Slave* will the *Master* send the data.
+
+## 4. User Guide
+![fpga](https://i.imgur.com/tdeiHR1.png)
+
+(Image from [https://www.mercadolivre.com.br/](https://www.mercadolivre.com.br/))
+
+**1 -** Data input button
+
+**2/3 -** Payload size setting buttons
+
+**4 -** Green LED that goes on everytime data is successfully transfered from *Master* to *Slave*
+
+**5 -** Red LED that goes on everytime there is an error
+
+**6 -** Displays error message
+
+**7 -** Size of last data transmission
+
+**8 -** Size of first data transmission
