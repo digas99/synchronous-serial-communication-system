@@ -50,7 +50,7 @@ Then, the architecture has to be implemented, either through a block diagram bui
 
 **In this initial state**, it is expected a low level of complexity of the system, since the focus is to elaborate the FSM.
 
-An FPGA (field-programmable gate array) is will be used to output the system's updates.
+An FPGA (field-programmable gate array) will be used to output the system's updates.
 
 The *Data Size* is defined outside of the FPGA's environment.
 
