@@ -62,7 +62,7 @@ The FPGA should behave as the following:
 
 **On a second state of the project**, it is exptected that HEX [3..0] exits output the *checksum error* value and the initial *Data Size* should be set through a button.
 
-**On a final state**, as required by the project's guidelines, it should be implemented a *MuliSlave* communication, where the user can choose to which *Slave* will the *Master* send the data.
+**On a final state**, as required by the project's guidelines, it should be implemented a *MultiSlave* communication, where the user can choose to which *Slave* will the *Master* send the data.
 
 ## 4. User Guide
 ![fpga](https://i.imgur.com/tdeiHR1.png)
