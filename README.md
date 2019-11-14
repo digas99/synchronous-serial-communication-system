@@ -3,8 +3,9 @@
 
 Project of **Digital Systems Lab** classes, made by [Carlos Costa](https://github.com/carlosrjpcosta) and [Diogo Correia](https://github.com/digas99)
 
-
 Computers and Telematics Engineering at Universidade de Aveiro
+
+Written in VHDL.
 
 Report in portuguese [here](/relatorio).
 
