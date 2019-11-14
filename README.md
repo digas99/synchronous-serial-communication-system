@@ -1,4 +1,6 @@
 # synchronous-serial-communication-system
+***Sistema de Comunicação Série Síncrono*** (Synchronous Serial Communication System)
+
 Project of **Digital Systems Lab** classes, made by [Carlos Costa](https://github.com/carlosrjpcosta) and [Diogo Correia](https://github.com/digas99)
 
 
